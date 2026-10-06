@@ -1,4 +1,4 @@
-import { ArrowUpRight, Check, CircleDot, GitBranch, GitBranch, Play, ShieldCheck, Terminal } from 'lucide-react'
+import { ArrowUpRight, Check, CircleDot, GitBranch, Play, ShieldCheck, Terminal } from 'lucide-react'
 
 const links = [
   {
