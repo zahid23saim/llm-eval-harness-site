@@ -3,8 +3,8 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'llm-eval-harness: catch LLM regressions before your users do',
+  description: 'llm-eval-harness catches LLM regressions before your users do with a tiny Python CI gate for model output.',
   generator: 'v0.app',
   icons: {
     icon: [
