@@ -1,10 +1,10 @@
-import { ArrowUpRight, Check, CircleDot, GitBranch, Github, Play, ShieldCheck, Terminal } from 'lucide-react'
+import { ArrowUpRight, Check, CircleDot, GitBranch, GitBranch, Play, ShieldCheck, Terminal } from 'lucide-react'
 
 const links = [
   {
     label: 'View source',
     href: 'https://github.com/zahid23saim/llm-eval-harness',
-    icon: Github,
+    icon: GitBranch,
   },
   {
     label: 'Try the demo',
@@ -61,7 +61,7 @@ export default function Page() {
             </p>
             <div className="mt-9 flex flex-wrap gap-3">
               <a href="https://github.com/zahid23saim/llm-eval-harness" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-lg bg-[#0b5754] px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-[#0b5754]/15 transition hover:bg-[#084744]">
-                <Github aria-hidden="true" className="size-4" /> View on GitHub <ArrowUpRight aria-hidden="true" className="size-4" />
+                <GitBranch aria-hidden="true" className="size-4" /> View on GitHub <ArrowUpRight aria-hidden="true" className="size-4" />
               </a>
               <a href="https://zahid23saim.github.io/demo.html" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-lg border border-[#a9c9c2] bg-white/60 px-5 py-3 text-sm font-semibold text-[#205653] transition hover:border-[#0b5754] hover:bg-white">
                 <Play aria-hidden="true" className="size-4" /> Live demo
