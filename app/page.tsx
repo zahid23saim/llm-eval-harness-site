@@ -78,11 +78,12 @@ export default function Page() {
                 </div>
                 <div className="space-y-5 px-5 py-6 font-mono text-xs leading-6 text-[#35625e] sm:px-7 sm:py-8 sm:text-sm">
                   <div><span className="text-[#94aaa5]">01</span> <span className="text-[#0b5754]">{`{`}</span></div>
-                  <div className="pl-5"><span className="text-[#b66f47]">"question"</span><span className="text-[#94aaa5]">: </span><span className="text-[#39706c]">"What is 2 + 2?"</span><span className="text-[#94aaa5]">,</span></div>
-                  <div className="pl-5"><span className="text-[#b66f47]">"answer"</span><span className="text-[#94aaa5]">: </span><span className="text-[#39706c]">"4"</span><span className="text-[#94aaa5]">,</span></div>
+                  <div className="pl-5"><span className="text-[#b66f47]">"id"</span><span className="text-[#94aaa5]">: </span><span className="text-[#39706c]">"q1"</span><span className="text-[#94aaa5]">,</span></div>
+                  <div className="pl-5"><span className="text-[#b66f47]">"question"</span><span className="text-[#94aaa5]">: </span><span className="text-[#39706c]">"What year did the first moon landing happen?"</span><span className="text-[#94aaa5]">,</span></div>
+                  <div className="pl-5"><span className="text-[#b66f47]">"answer"</span><span className="text-[#94aaa5]">: </span><span className="text-[#39706c]">"1969"</span><span className="text-[#94aaa5]">,</span></div>
                   <div className="pl-5"><span className="text-[#b66f47]">"match"</span><span className="text-[#94aaa5]">: </span><span className="text-[#39706c]">"numeric"</span></div>
                   <div><span className="text-[#0b5754]">{`}`}</span></div>
-                  <div className="mt-2 flex items-center gap-2 border-t border-[#d8e9e4] pt-5 font-sans text-sm font-semibold text-[#0b5754]"><Check aria-hidden="true" className="size-4" /> Gold set checked before run</div>
+                  <div className="mt-2 border-t border-[#d8e9e4] pt-5 font-mono text-xs leading-5 text-[#52716e]">accuracy: 80% (4/5)<br /><span className="text-[#a65342]">FAIL q5: How many bits are in a byte? expected: &apos;8&apos; got: &apos;A byte has seven bits.&apos;</span></div>
                 </div>
               </div>
             </div>
