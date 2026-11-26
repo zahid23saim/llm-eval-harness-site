@@ -109,7 +109,7 @@ export default function Page() {
         </section>
 
         <footer className="flex flex-col gap-7 border-t border-[#cfe0dc] pb-4 pt-12 sm:flex-row sm:items-end sm:justify-between">
-          <div><p className="text-sm text-[#52716e]">Made by <span className="font-semibold text-[#205653]">Zahid Ahmed</span></p><p className="mt-2 text-xs text-[#7b9892]">Open source, MIT</p></div>
+          <div><p className="text-sm text-[#52716e]">Built with v0, run from my own terminal.</p><p className="mt-2 text-xs text-[#7b9892]">Open source, MIT</p></div>
           <nav aria-label="Project links" className="flex flex-wrap gap-x-6 gap-y-3">{links.map(({ label, href, icon: Icon }) => <a key={label} href={href} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1.5 text-sm font-medium text-[#39706c] transition-colors hover:text-[#0b5754]"><Icon aria-hidden="true" className="size-4" /> {label}</a>)}</nav>
         </footer>
       </div>
